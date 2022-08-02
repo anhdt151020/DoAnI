@@ -13,4 +13,6 @@ public interface ProductService {
      void removeProductById(long id);
      Optional<Product> getProductById(long id);
      List<Product> getAllProductByCategoryId(int id);
+
+     List<Product> getAllProductByContainingName(String name);
 }

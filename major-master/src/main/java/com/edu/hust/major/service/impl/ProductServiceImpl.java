@@ -33,6 +33,11 @@ public class ProductServiceImpl implements ProductService {
     public List<Product> getAllProductByCategoryId(int id) {
         return productRepository.findAllByCategory_Id(id);
     }
+
+    @Override
+    public List<Product> getAllProductByContainingName(String name) {
+        return productRepository.findByNameContaining(name);
+    }
     //findList theo ProductDTO.categoryId
 
 }

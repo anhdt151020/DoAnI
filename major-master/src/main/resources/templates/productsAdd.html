@@ -12,10 +12,10 @@
     <title>Thêm mới sản phẩm</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container-fluid">
         <a class="navbar-brand" th:href="@{/}" href="#">
-            <img th:src="@{/images/logo.png}" src="../static/images/logo.png" width="auto" height="70"
+            <img th:src="@{/images/logo.png}" src="../static/images/logo.png" width="auto" height="30"
                  class="d-inline-block align-top" alt=""/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -66,9 +66,9 @@
                            placeholder="Price">
                 </div>
                 <div class="form-group">
-                    <label for="weight">Weight in grams</label>
-                    <input type="number" class="form-control" required th:field="*{weight}" name="weight" id="weight"
-                           placeholder="Weight">
+                    <label for="quantity">Quantity in Unit</label>
+                    <input type="number" class="form-control" required th:field="*{quantity}" name="quantity" id="quantity"
+                           placeholder="Quantity">
                 </div>
                 <div class="form-group">
                     <label for="description">Product Description</label>

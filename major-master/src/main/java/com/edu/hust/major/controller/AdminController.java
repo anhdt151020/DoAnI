@@ -27,7 +27,6 @@ import java.util.Optional;
 
 @Controller
 public class AdminController {
-    public static String uploadDir = System.getProperty("user.dir") + "/src/main/resources/static/productImages";
     @Autowired
     private PasswordEncoder bCryptPasswordEncoder;
 
@@ -147,73 +146,5 @@ public class AdminController {
         }
     }//form edit category, fill old data into form
 
-    //Products session
-    @GetMapping("/admin/products")
-    public String getPro(Model model){
-        model.addAttribute("products", productService.getAllProduct());
-        return "products";
-    }//view all products
 
-    @GetMapping("/admin/products/add")
-    public String getProAdd(Model model){
-        model.addAttribute("productDTO", new ProductDTO());
-        model.addAttribute("categories", categoryService.getAllCategory());
-        return "productsAdd";
-    }// form add new product
-
-    @PostMapping("/admin/products/add")
-    public String postProAdd(@ModelAttribute("productDTO") ProductDTO productDTO,
-                             @RequestParam("productImage") MultipartFile fileProductImage,
-                             @RequestParam("imgName") String imgName) throws IOException {
-        //convert dto > entity
-        Product product = new Product();
-        product.setId(productDTO.getId());
-        product.setName(productDTO.getName());
-        product.setCategory(categoryService.getCategoryById(productDTO.getCategoryId()).get());
-        product.setPrice(productDTO.getPrice());
-        product.setWeight(productDTO.getWeight());
-        product.setDescription(productDTO.getDescription());
-        String imageUUID;
-        if(!fileProductImage.isEmpty()){
-            imageUUID = fileProductImage.getOriginalFilename();
-            Path fileNameAndPath = Paths.get(uploadDir, imageUUID);
-            Files.write(fileNameAndPath, fileProductImage.getBytes());
-        }else {
-            imageUUID = imgName;
-        }//save image
-        product.setImageName(imageUUID);
-
-        productService.updateProduct(product);
-        return "redirect:/admin/products";
-    }//form add new product > do add
-
-    @GetMapping("/admin/products/delete/{id}")
-    public String deletePro(@PathVariable long id){
-        productService.removeProductById(id);
-        return "redirect:/admin/products";
-    }//delete 1 product
-
-    @GetMapping("/admin/products/update/{id}")
-    public String updatePro(@PathVariable long id, Model model){
-        Optional<Product> opProduct = productService.getProductById(id);
-        if (opProduct.isPresent()){
-            Product product = opProduct.get();
-            //convert entity > dto
-            ProductDTO productDTO = new ProductDTO();
-            productDTO.setId(product.getId());
-            productDTO.setName(product.getName());
-            productDTO.setCategoryId(product.getCategory().getId());
-            productDTO.setPrice(product.getPrice());
-            productDTO.setWeight(product.getWeight());
-            productDTO.setDescription(product.getDescription());
-            productDTO.setImageName(product.getImageName());
-
-            model.addAttribute("productDTO", productDTO);
-            model.addAttribute("categories", categoryService.getAllCategory());
-            return "productsAdd";
-        }else {
-            return "404";
-        }
-
-    }//form edit product, fill old data into form
 }

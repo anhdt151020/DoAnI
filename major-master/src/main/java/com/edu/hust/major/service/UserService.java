@@ -13,4 +13,6 @@ public interface UserService {
     void removeUserById(int id);
     Optional<User> getUserById(int id);
     Optional<User> getUserByEmail(String email);
+
+    Optional<User> getCurrentUserLogin();
 }
