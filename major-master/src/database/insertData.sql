@@ -31,5 +31,3 @@ INSERT INTO `ta_ecommerce_shop`.`product` (`description`, `image_name`, `name`, 
 INSERT INTO `ta_ecommerce_shop`.`product` (`description`, `image_name`, `name`, `price`, `quantity`, `category_id`) VALUES ('Chất liệu AIRism giúp bạn luôn cảm thấy thoáng mát. Thiết kế tinh tế.', 'product8.png', 'Thiết kế tinh tế', '4349000', '100', '4');
 
 
-
-INSERT INTO `ta_ecommerce_shop`.`user` (`email`, `first_name`, `last_name`, `password`) VALUES ('admin@admin.com', 'admin', 'admin', '$2a$10$Dj4DVhzbkoe.cF69JPi/guvuHvH/w61S7egpqCaZbVDwGt5BjhHQ6');
