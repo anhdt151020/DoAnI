@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="031d6fc9-ef4e-40a4-a83c-e687d595b96b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="preprojectdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="preprojectdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="preprojectdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="preprojectdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1q7NVSnWiQIw0IHFXIxo13jSwSw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dinhtuananh/IdeaProjects/Spring_Workspace/springboot-inventory/project/major-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f1425da40a9f2d21ab702a1c7feae026&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
+      <recent name="C:\Users\Darkm\Downloads\major-master\src\main\resources" />
+      <recent name="C:\Users\Darkm\Downloads\major-master\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MajorApplication">
+    <configuration name="MajorApplicationTests.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplicationTests.testProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplicationTests.testRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplicationTests.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="major" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.hutech.major.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu.hutech.major" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.hutech.major.MajorApplicationTests" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="major" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.hutech.major.MajorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MajorApplicationTests.testUser" />
+      <item itemvalue="JUnit.MajorApplicationTests.testRole" />
+      <item itemvalue="JUnit.MajorApplicationTests.testLogin" />
+      <item itemvalue="JUnit.MajorApplicationTests.testProduct" />
+      <item itemvalue="Spring Boot.MajorApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MajorApplicationTests.testProduct" />
+        <item itemvalue="JUnit.MajorApplicationTests.testLogin" />
+        <item itemvalue="JUnit.MajorApplicationTests.testRole" />
+        <item itemvalue="JUnit.MajorApplicationTests.testUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="031d6fc9-ef4e-40a4-a83c-e687d595b96b" name="Default Changelist" comment="" />
+      <created>1616426691491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616426691491</updated>
+      <workItem from="1616426693483" duration="2899000" />
+      <workItem from="1616597596996" duration="3546000" />
+      <workItem from="1616643417376" duration="13000" />
+      <workItem from="1617544513609" duration="3130000" />
+      <workItem from="1617634440803" duration="7865000" />
+      <workItem from="1617672622148" duration="7362000" />
+      <workItem from="1617680866057" duration="2543000" />
+      <workItem from="1617805039239" duration="2986000" />
+      <workItem from="1617849015868" duration="231000" />
+      <workItem from="1618372061649" duration="31183000" />
+      <workItem from="1618456314374" duration="1856000" />
+      <workItem from="1618497653208" duration="4361000" />
+      <workItem from="1618540166861" duration="1231000" />
+      <workItem from="1618717707975" duration="2593000" />
+      <workItem from="1618724612130" duration="53000" />
+      <workItem from="1618737626889" duration="153000" />
+      <workItem from="1618740689706" duration="625000" />
+      <workItem from="1618814573534" duration="8665000" />
+      <workItem from="1618841202300" duration="8000" />
+      <workItem from="1618975603194" duration="1519000" />
+      <workItem from="1620543356454" duration="16769000" />
+      <workItem from="1621071351827" duration="11000" />
+      <workItem from="1622802968982" duration="3710000" />
+      <workItem from="1658914323840" duration="7949000" />
+      <workItem from="1658932016421" duration="2115000" />
+      <workItem from="1658940855396" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
