@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ShopECOM.iml" filepath="$PROJECT_DIR$/.idea/ShopECOM.iml" />
-      <module fileurl="file://$PROJECT_DIR$/major-master/major.iml" filepath="$PROJECT_DIR$/major-master/major.iml" />
+      <module fileurl="file://$PROJECT_DIR$/major-master/TAEShop.iml" filepath="$PROJECT_DIR$/major-master/TAEShop.iml" />
     </modules>
   </component>
 </project>
