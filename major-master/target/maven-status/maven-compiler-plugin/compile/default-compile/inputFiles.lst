@@ -8,6 +8,7 @@
 /Users/dinhtuananh/IdeaProjects/ShopECOM/major-master/src/main/java/com/edu/hust/major/service/impl/CategoryServiceImpl.java
 /Users/dinhtuananh/IdeaProjects/ShopECOM/major-master/src/main/java/com/edu/hust/major/service/CategoryService.java
 /Users/dinhtuananh/IdeaProjects/ShopECOM/major-master/src/main/java/com/edu/hust/major/controller/CartController.java
+/Users/dinhtuananh/IdeaProjects/ShopECOM/major-master/src/main/java/com/edu/hust/major/controller/ProductController.java
 /Users/dinhtuananh/IdeaProjects/ShopECOM/major-master/src/main/java/com/edu/hust/major/model/CustomUserDetail.java
 /Users/dinhtuananh/IdeaProjects/ShopECOM/major-master/src/main/java/com/edu/hust/major/dto/UserDTO.java
 /Users/dinhtuananh/IdeaProjects/ShopECOM/major-master/src/main/java/com/edu/hust/major/configuration/GoogleOAuth2SuccessHandler.java

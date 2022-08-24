@@ -98,7 +98,6 @@ public class ProductController {
         }
 
     }
-
     @GetMapping("product/search/")
     public String searchProduct(@RequestParam String name, Model model){
         List<Product> productList = null;

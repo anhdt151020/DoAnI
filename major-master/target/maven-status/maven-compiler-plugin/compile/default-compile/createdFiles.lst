@@ -22,6 +22,7 @@ com/edu/hust/major/controller/CartController.class
 com/edu/hust/major/model/User.class
 com/edu/hust/major/service/impl/CategoryServiceImpl.class
 com/edu/hust/major/global/GlobalData.class
+com/edu/hust/major/controller/ProductController.class
 com/edu/hust/major/service/impl/RoleServiceImpl.class
 com/edu/hust/major/MajorApplication.class
 com/edu/hust/major/model/Product.class

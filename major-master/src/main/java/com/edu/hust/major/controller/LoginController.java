@@ -61,4 +61,9 @@ public class LoginController {
         request.login(userModel.getEmail(), password);
         return "redirect:/";
     }//after register success
+
+    @GetMapping("/error")
+    public String errorHandle(){
+        return "index";
+    }
 }
